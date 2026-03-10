@@ -5,7 +5,38 @@
 <head>
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>PHANTOM WIN GHOST: ZERO | Apex Counter-Forensic Suite</title>
+
+  <!-- Primary Meta Tags -->
+  <title>PHANTOM WINDOW: ZERO | Apex Counter-Forensic Suite</title>
+  <meta name="title" content="PHANTOM WINDOW: ZERO | Apex Counter-Forensic Suite">
+  <meta name="description"
+    content="PHANTOM WINDOW: ZERO executes a total digital scorched-earth policy. A proprietary counter-forensic engine designed to vaporize artifacts, inject logic noise, and leave zero traces.">
+  <meta name="keywords"
+    content="counter-forensics, digital privacy, anti-forensics, MFT burial, artifact wiper, secure deletion, red team tools, privacy suite, zero trace">
+  <meta name="author" content="Falken Fujimaru">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://falkenfujimaru.github.io/phantom-window-zero/">
+  <meta property="og:title" content="PHANTOM WINDOW: ZERO | Apex Counter-Forensic Software">
+  <meta property="og:description"
+    content="Leaving shadows, not traces. Vaporize forensic artifacts with MFT burial, logic noise injection, and absolute scorched-earth execution.">
+  <meta property="og:image" content="https://phantom-window.local/banner.jpg">
+  <!-- Replace with actual banner URL later -->
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://falkenfujimaru.github.io/phantom-window-zero/">
+  <meta property="twitter:title" content="PHANTOM WINDOW: ZERO | Anti-Forensics Tool">
+  <meta property="twitter:description"
+    content="Leaving shadows, not traces. Vaporize forensic artifacts with MFT burial, logic noise injection, and absolute scorched-earth execution.">
+  <meta property="twitter:image" content="https://phantom-window.local/banner.jpg">
+  <!-- Replace with actual banner URL later -->
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://falkenfujimaru.github.io/phantom-window-zero/">
+
   <!-- Tailwind CSS v3 CDN -->
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <!-- Google Fonts: Space Grotesk and JetBrains Mono -->
@@ -98,652 +129,685 @@
   </style>
 </head>
 
-<body class="font-sans selection:bg-stealthViolet selection:text-white">
-  <div class="scanline-overlay"></div>
+<body class="font-sans selection:bg-stealthViolet selection:text-white" itemscope
+  itemtype="http://schema.org/SoftwareApplication">
+  <div class="scanline-overlay" aria-hidden="true"></div>
   <!-- Navigation -->
-  <nav class="fixed top-0 w-full z-50 border-b border-white/5 bg-obsidian/90 backdrop-blur-xl">
+  <nav class="fixed top-0 w-full z-50 border-b border-white/5 bg-obsidian/90 backdrop-blur-xl"
+    aria-label="Main Navigation">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-5 flex justify-between items-center">
       <div class="font-heading font-bold text-base sm:text-lg tracking-widest flex items-center gap-2 sm:gap-3">
-        <div class="w-3 h-3 sm:w-4 sm:h-4 bg-stealthViolet animate-pulse shadow-[0_0_10px_#4B0082]"></div>
-        PHANTOM <span class="text-phantomBlue textShadow">WINDOW:ZERO</span>
+        <div class="w-3 h-3 sm:w-4 sm:h-4 bg-stealthViolet animate-pulse shadow-[0_0_10px_#4B0082]" aria-hidden="true">
+        </div>
+        <span itemprop="name">PHANTOM</span> <span class="text-phantomBlue textShadow">WINDOW:ZERO</span>
       </div>
       <div class="hidden md:flex items-center gap-10 text-[11px] font-bold tracking-[0.2em] uppercase">
         <a class="hover:text-phantomBlue transition-colors cursor-pointer" href="#kill-list">Capabilities</a>
         <a class="hover:text-phantomBlue transition-colors cursor-pointer" href="#comparison">Benchmarks</a>
         <a class="hover:text-phantomBlue transition-colors cursor-pointer" href="#directives">Clearance</a>
         <a class="bg-phantomBlue text-black px-6 py-2 hover:bg-white hover:text-black transition-all shadow-[0_0_15px_rgba(0,243,255,0.3)] font-black"
-          href="#acquire">ACQUIRE INITIATIVE</a>
+          href="#acquire" aria-label="Acquire the Engine Initiative">ACQUIRE INITIATIVE</a>
       </div>
       <div class="md:hidden">
         <a class="bg-phantomBlue text-black text-[10px] sm:text-[11px] font-black tracking-[0.2em] uppercase px-4 py-2 shadow-[0_0_10px_rgba(0,243,255,0.3)]"
-          href="#acquire">ACQUIRE</a>
+          href="#acquire" aria-label="Acquire the Engine">ACQUIRE</a>
       </div>
     </div>
   </nav>
-  <!-- Hero Section -->
-  <header class="relative min-h-screen flex flex-col items-center justify-center pt-24 px-6 smoke-gradient"
-    data-purpose="hero-section">
-    <div class="absolute inset-0 opacity-10 pointer-events-none overflow-hidden">
-      <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
-        <filter id="noise">
-          <feturbulence basefrequency="0.8" numoctaves="4" stitchtiles="stitch" type="fractalNoise"></feturbulence>
-        </filter>
-        <rect fill="transparent" filter="url(#noise)" height="100%" width="100%"></rect>
-      </svg>
-    </div>
-    <div class="relative z-20 text-center max-w-5xl mx-auto">
-      <div
-        class="inline-flex items-center gap-2 mb-8 px-4 py-1.5 border border-stealthViolet/50 bg-stealthViolet/20 text-stealthViolet font-mono text-[10px] tracking-widest uppercase rounded-full">
-        <span class="w-1.5 h-1.5 rounded-full bg-stealthViolet animate-ping"></span>
-        Portable Executable • PowerShell Native
+
+  <main>
+    <!-- Hero Section -->
+    <header class="relative min-h-screen flex flex-col items-center justify-center pt-24 px-6 smoke-gradient"
+      data-purpose="hero-section" aria-label="Hero Introduction">
+      <div class="absolute inset-0 opacity-10 pointer-events-none overflow-hidden">
+        <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <filter id="noise">
+            <feturbulence basefrequency="0.8" numoctaves="4" stitchtiles="stitch" type="fractalNoise"></feturbulence>
+          </filter>
+          <rect fill="transparent" filter="url(#noise)" height="100%" width="100%"></rect>
+        </svg>
       </div>
-      <h1
-        class="font-heading text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 md:mb-8 tracking-tighter leading-[0.9] glitch-text uppercase italic">
-        LEAVE NO ECHO. <br /><span class="block text-white not-italic mt-2 md:mt-0">LEAVING SHADOWS, NOT TRACES.</span>
-      </h1>
-      <p
-        class="text-lg md:text-2xl text-gray-400 mb-10 md:mb-12 max-w-4xl mx-auto leading-relaxed font-light px-4 md:px-0">
-        Most software "cleans" files. <span class="text-white font-medium">PHANTOM WINDOW: ZERO</span> executes a total
-        digital scorched-earth policy, vaporizing forensic artifacts before they can be weaponized against you.
-      </p>
-      <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center pt-6 md:pt-8 w-full">
-        <a class="w-full sm:w-auto text-center bg-phantomBlue hover:bg-white text-black font-heading font-black text-xs sm:text-sm px-6 sm:px-10 py-4 sm:py-5 tracking-[0.2em] transition-all transform hover:-translate-y-1 shadow-[0_0_30px_rgba(0,243,255,0.3)]"
-          data-purpose="primary-cta" href="#acquire">
-          ACQUIRE ENGINE ACCESS
-        </a>
-        <a class="w-full sm:w-auto text-center border border-white/20 hover:border-phantomBlue/50 hover:text-phantomBlue hover:bg-phantomBlue/5 text-white font-heading font-bold text-xs sm:text-sm px-6 sm:px-10 py-4 sm:py-5 tracking-widest transition-all"
-          data-purpose="secondary-cta" href="#kill-list">
-          VIEW SPECIFICATIONS
-        </a>
-      </div>
-      <div
-        class="mt-20 font-mono text-[10px] uppercase tracking-[0.5em] text-gray-500 flex items-center justify-center gap-4">
-        <span>Engine Status: <span class="text-green-500 font-bold">Undetected</span></span>
-        <span class="w-1 h-1 bg-gray-700 rounded-full"></span>
-        <span>Version: 5.0.0-alpha</span>
-      </div>
-    </div>
-  </header>
-  <!-- Problem Section -->
-  <section class="py-32 px-6 border-y border-white/5 bg-voidGray/40" data-purpose="problem-statement" id="problem">
-    <div class="max-w-6xl mx-auto">
-      <div class="grid lg:grid-cols-2 gap-20 items-center">
-        <div>
-          <h2
-            class="font-heading text-3xl md:text-4xl font-bold mb-10 tracking-tight text-white leading-tight uppercase">
-            They Don’t Just Look for Files. <br />
-            <span class="text-stealthViolet italic">They Look for Patterns.</span>
-          </h2>
-          <div class="space-y-8 text-gray-400 text-lg leading-relaxed">
-            <p>Every action on a Windows machine leaves a ghost. Forensic tools like <span
-                class="text-white font-medium">EnCase</span> and <span class="text-white font-medium">Magnet
-                AXIOM</span> don't care if you deleted a file—they look at the <span
-                class="text-stealthViolet font-bold">MFT (Master File Table)</span>, the <span
-                class="text-stealthViolet font-bold">System Timeline</span>, and deep-seated <span
-                class="text-stealthViolet font-bold">Artifacts</span>.</p>
-            <p>Standard cleaners are loud. They leave 'void gaps' that scream "I've been wiped." Phantom Zero operates
-              via <span class="italic text-white">Logic Noise Injection</span>, filling the void with plausible
-              deniability and structural camouflage.</p>
-          </div>
-        </div>
-        <div class="relative group max-w-2xl mx-auto cursor-crosshair">
-          <div
-            class="absolute -inset-1 bg-red-900/20 group-hover:bg-phantomBlue/20 opacity-30 blur-3xl transition-all duration-700">
-          </div>
-
-          <div
-            class="relative bg-[#050505] border border-white/10 rounded-lg overflow-hidden shadow-2xl transition-all duration-500 group-hover:border-phantomBlue/30">
-
-            <div class="flex items-center justify-between px-3 sm:px-4 py-2 bg-white/5 border-b border-white/10">
-              <div class="flex gap-1.5">
-                <div
-                  class="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-red-500/20 border border-red-500/50 group-hover:bg-phantomBlue/20 group-hover:border-phantomBlue/50 transition-colors">
-                </div>
-                <div class="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-yellow-500/20 border border-yellow-500/50"></div>
-                <div class="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-green-500/20 border border-green-500/50"></div>
-              </div>
-              <div
-                class="text-[8px] sm:text-[10px] font-mono text-gray-500 tracking-[0.2em] sm:tracking-[0.3em] uppercase">
-                <span class="group-hover:hidden">Scan_Mode // Vulnerable</span>
-                <span class="hidden group-hover:inline text-phantomBlue animate-pulse">Engaged // Scorched_Earth</span>
-              </div>
-            </div>
-
-            <div class="p-4 sm:p-8 font-mono text-[10px] sm:text-xs md:text-sm leading-relaxed">
-
-              <div class="mb-6">
-                <div class="text-red-500 group-hover:text-phantomBlue transition-colors duration-500">
-                  &gt; <span class="group-hover:hidden">CAUTION: Forensic Artifacts Detected.</span>
-                  <span class="hidden group-hover:inline">SUCCESS: Digital Footprint Vaporized.</span>
-                </div>
-                <div class="text-gray-600 text-[10px] mt-1 italic">Target: C:\Users\Admin\AppData\Local\...</div>
-              </div>
-
-              <div class="space-y-4 mb-8">
-                <div class="flex justify-between items-center border-b border-white/5 pb-2">
-                  <span class="text-gray-400 group-hover:text-gray-200 transition-colors">Master File Table (MFT)</span>
-                  <div class="relative h-5 w-24 text-right">
-                    <span
-                      class="absolute right-0 text-red-600 font-bold group-hover:opacity-0 group-hover:-translate-y-2 transition-all duration-500 italic">[EXPOSED]</span>
-                    <span
-                      class="absolute right-0 text-phantomBlue font-bold opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 delay-100 uppercase">[BURIED]</span>
-                  </div>
-                </div>
-
-                <div class="flex justify-between items-center border-b border-white/5 pb-2">
-                  <span class="text-gray-400 group-hover:text-gray-200 transition-colors">USB/Hardware Registry</span>
-                  <div class="relative h-5 w-24 text-right">
-                    <span
-                      class="absolute right-0 text-red-600 font-bold group-hover:opacity-0 group-hover:-translate-y-2 transition-all duration-500 italic">[RECOVERABLE]</span>
-                    <span
-                      class="absolute right-0 text-phantomBlue font-bold opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 delay-200 uppercase">[NUKED]</span>
-                  </div>
-                </div>
-
-                <div class="flex justify-between items-center border-b border-white/5 pb-2">
-                  <span class="text-gray-400 group-hover:text-gray-200 transition-colors">Windows Event Logs</span>
-                  <div class="relative h-5 w-24 text-right">
-                    <span
-                      class="absolute right-0 text-red-600 font-bold group-hover:opacity-0 group-hover:-translate-y-2 transition-all duration-500 italic">[RED_FLAG]</span>
-                    <span
-                      class="absolute right-0 text-phantomBlue font-bold opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 delay-300 uppercase">[MASKED]</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="relative w-full h-1 bg-white/5 rounded-full overflow-hidden mb-6">
-                <div
-                  class="absolute top-0 left-0 h-full bg-phantomBlue w-0 group-hover:w-full transition-all duration-[1.5s] ease-out">
-                </div>
-              </div>
-
-              <div
-                class="flex flex-col items-center justify-center pt-4 border-t border-white/10 transition-all duration-1000">
-                <div class="text-[10px] text-gray-500 uppercase tracking-widest mb-2">Forensic Reconstruction
-                  Probability:</div>
-                <div class="relative h-8 w-full text-center font-black text-2xl tracking-tighter transition-all">
-                  <span
-                    class="absolute inset-0 text-red-700/50 group-hover:opacity-0 transition-opacity duration-500 uppercase">High_Risk</span>
-                  <span
-                    class="absolute inset-0 text-phantomBlue opacity-0 group-hover:opacity-100 group-hover:animate-pulse transition-opacity duration-1000 uppercase">Zero_Trace_Alpha</span>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!-- Core Tech Section -->
-  <section class="py-32 px-6 relative" data-purpose="features-grid" id="features">
-    <div
-      class="absolute inset-0 bg-gradient-to-b from-transparent via-phantomBlue/[0.02] to-transparent pointer-events-none">
-    </div>
-    <div class="max-w-7xl mx-auto relative z-10">
-      <div class="text-center mb-20">
-        <h2 class="font-heading text-4xl font-bold mb-4 tracking-tighter uppercase text-white/90">THE TRINITY OF
-          ANNIHILATION</h2>
-        <div class="w-32 h-1 bg-gradient-to-r from-transparent via-phantomBlue to-transparent mx-auto"></div>
-        <p class="mt-6 text-phantomBlue font-mono text-xs tracking-[0.3em] uppercase">Proprietary counter-forensic
-          engine
-        </p>
-      </div>
-      <div class="grid md:grid-cols-3 gap-8">
+      <div class="relative z-20 text-center max-w-5xl mx-auto">
         <div
-          class="glass-card p-12 border border-white/5 hover:border-phantomBlue/40 hover:bg-white/5 transition-all duration-500 group flex flex-col items-center text-center">
-          <div
-            class="mb-8 p-6 bg-white/5 border border-white/5 rounded-full group-hover:scale-110 group-hover:bg-phantomBlue/10 group-hover:border-phantomBlue/50 transition-all duration-500 shadow-[0_0_0_rgba(0,243,255,0)] group-hover:shadow-[0_0_30px_rgba(0,243,255,0.2)]">
-            <svg class="w-12 h-12 text-white/50 group-hover:text-phantomBlue transition-colors duration-500" fill="none"
-              stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
-              </path>
-            </svg>
-          </div>
-          <h3
-            class="font-heading text-xl font-bold mb-6 text-white uppercase tracking-tight group-hover:text-phantomBlue transition-colors duration-500">
-            I. MFT Burial</h3>
-          <p class="text-gray-400 text-sm leading-relaxed">Don't just delete records; bury them. We flood the Master
-            File Table with millions of dummy entries, forcing original artifact offsets to be physically overwritten
-            and irrecoverable by hardware tools.</p>
+          class="inline-flex items-center gap-2 mb-8 px-4 py-1.5 border border-stealthViolet/50 bg-stealthViolet/20 text-stealthViolet font-mono text-[10px] tracking-widest uppercase rounded-full">
+          <span class="w-1.5 h-1.5 rounded-full bg-stealthViolet animate-ping"></span>
+          Portable Executable • PowerShell Native
         </div>
-        <div
-          class="glass-card p-12 border border-white/5 hover:border-phantomBlue/40 hover:bg-white/5 transition-all duration-500 group flex flex-col items-center text-center">
-          <div
-            class="mb-8 p-6 bg-white/5 border border-white/5 rounded-full group-hover:scale-110 group-hover:bg-phantomBlue/10 group-hover:border-phantomBlue/50 transition-all duration-500 shadow-[0_0_0_rgba(0,243,255,0)] group-hover:shadow-[0_0_30px_rgba(0,243,255,0.2)]">
-            <svg class="w-12 h-12 text-white/50 group-hover:text-phantomBlue transition-colors duration-500" fill="none"
-              stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
-            </svg>
-          </div>
-          <h3
-            class="font-heading text-xl font-bold mb-6 text-white uppercase tracking-tight group-hover:text-phantomBlue transition-colors duration-500">
-            II. Logic Noise</h3>
-          <p class="text-gray-400 text-sm leading-relaxed">Create a false history. Phantom Zero injects thousands of
-            simulated "System Maintenance" and "Update" logs to mask the timing of high-priority activities. Hide in
-            plain sight.</p>
-        </div>
-        <div
-          class="glass-card p-12 border border-white/5 hover:border-phantomBlue/40 hover:bg-white/5 transition-all duration-500 group flex flex-col items-center text-center">
-          <div
-            class="mb-8 p-6 bg-white/5 border border-white/5 rounded-full group-hover:scale-110 group-hover:bg-phantomBlue/10 group-hover:border-phantomBlue/50 transition-all duration-500 shadow-[0_0_0_rgba(0,243,255,0)] group-hover:shadow-[0_0_30px_rgba(0,243,255,0.2)]">
-            <svg class="w-12 h-12 text-white/50 group-hover:text-phantomBlue transition-colors duration-500" fill="none"
-              stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linecap="round" stroke-linejoin="round"
-                stroke-width="1.5"></path>
-            </svg>
-          </div>
-          <h3
-            class="font-heading text-xl font-bold mb-6 text-white uppercase tracking-tight group-hover:text-phantomBlue transition-colors duration-500">
-            III. Scorched Earth</h3>
-          <p class="text-gray-400 text-sm leading-relaxed">Nuking the "Big 4" trackers including <code
-              class="text-phantomBlue font-bold">wpndatabase.db</code>, JumpLists, ShellBags, and Prefetch
-            directories. Absolute destruction of usage patterns.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Kill-List Section -->
-  <section class="py-32 px-6 border-y border-white/5 bg-voidGray/40" data-purpose="kill-list" id="kill-list">
-    <div class="max-w-6xl mx-auto">
-      <div class="text-center mb-16 md:mb-20">
-        <h2 class="font-heading text-3xl md:text-4xl lg:text-5xl font-bold mb-4 tracking-tighter uppercase">50+ ARTIFACT
-          DEEP-STRIKE:
-          <span class="block md:inline text-white/40 mt-2 md:mt-0">THE KILL-LIST</span>
-        </h2>
-        <div class="w-32 h-1 bg-gradient-to-r from-transparent via-phantomBlue to-transparent mx-auto"></div>
-        <p class="mt-6 text-gray-500 font-mono text-sm tracking-widest uppercase">Total Coverage. Zero Recoverable
-          Evidence.</p>
-      </div>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="glass-card p-8 border-l-4 border-l-stealthViolet">
-          <h3 class="font-heading text-lg font-bold text-white mb-4 uppercase tracking-wider flex items-center gap-3">
-            <span class="w-2 h-2 bg-stealthViolet"></span> Execution &amp; Activity
-          </h3>
-          <ul class="space-y-2 font-mono text-xs text-gray-400">
-            <li class="flex justify-between"><span>UserAssist.reg</span> <span class="text-stealthViolet">[NUKED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>ShimCache / AppCompat</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>Prefetch Database</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>RecentItems &amp; JumpLists</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>RunMRU &amp; Search History</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
-            </li>
-          </ul>
-        </div>
-        <div
-          class="glass-card p-8 border-l-4 border-l-white/10 hover:border-l-phantomBlue hover:bg-white/5 transition-all duration-500">
-          <h3 class="font-heading text-lg font-bold text-white mb-4 uppercase tracking-wider flex items-center gap-3">
-            <span class="w-2 h-2 bg-phantomBlue shadow-[0_0_8px_#00f3ff]"></span> Hardware Fingerprints
-          </h3>
-          <ul class="space-y-2 font-mono text-xs text-gray-400">
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>USB Device Logs</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[SPOOFED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>Network Profile GUIDs</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[ROTATED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>MAC Address Entropy</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[INJECTED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>Bluetooth Pairings</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[PURGED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>WLAN Artifacts</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
-            </li>
-          </ul>
-        </div>
-        <div
-          class="glass-card p-8 border-l-4 border-l-white/10 hover:border-l-phantomBlue hover:bg-white/5 transition-all duration-500">
-          <h3 class="font-heading text-lg font-bold text-white mb-4 uppercase tracking-wider flex items-center gap-3">
-            <span class="w-2 h-2 bg-phantomBlue shadow-[0_0_8px_#00f3ff]"></span> Deep Logs
-          </h3>
-          <ul class="space-y-2 font-mono text-xs text-gray-400">
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>Event Viewer Logs</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[PURGED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>PowerShell History</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>Setupapi.dev.log</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[SCRUBBED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>WDI Diagnostics</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>CBS/CSI Logs</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[SCRUBBED]</span>
-            </li>
-          </ul>
-        </div>
-        <div
-          class="glass-card p-8 border-l-4 border-l-white/10 hover:border-l-phantomBlue hover:bg-white/5 transition-all duration-500">
-          <h3 class="font-heading text-lg font-bold text-white mb-4 uppercase tracking-wider flex items-center gap-3">
-            <span class="w-2 h-2 bg-phantomBlue shadow-[0_0_8px_#00f3ff]"></span> Communication Vaults
-          </h3>
-          <ul class="space-y-2 font-mono text-xs text-gray-400">
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>Outlook/Teams Cache</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>Discord LocalStorage</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>Session/Signal Metadata</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[SCRUBBED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>Browser Session DBs</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[VAPORIZED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>VoIP Metadata</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[PURGED]</span>
-            </li>
-          </ul>
-        </div>
-        <div
-          class="glass-card p-8 border-l-4 border-l-white/10 hover:border-l-phantomBlue hover:bg-white/5 transition-all duration-500">
-          <h3 class="font-heading text-lg font-bold text-white mb-4 uppercase tracking-wider flex items-center gap-3">
-            <span class="w-2 h-2 bg-phantomBlue shadow-[0_0_8px_#00f3ff]"></span> Filesystem Shadow
-          </h3>
-          <ul class="space-y-2 font-mono text-xs text-gray-400">
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>MFT Slack Space</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[OVERWRITTEN]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>ShellBags (Folder History)</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>VSS Shadow Copies</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>Recycle Bin SID Data</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
-            </li>
-            <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
-              <span>Thumbnail Cache</span> <span
-                class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
-            </li>
-          </ul>
-        </div>
-        <div class="glass-card p-8 flex flex-col justify-center items-center text-center border-dashed">
-          <div class="text-stealthViolet font-bold text-4xl mb-2 animate-pulse">20+</div>
-          <div class="font-heading font-bold text-white uppercase tracking-tighter">Additional Sub-Layers</div>
-          <p class="text-[10px] text-gray-500 font-mono mt-2">Continuously updated signatures for new forensic tools.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Comparison Table Section -->
-  <section class="py-32 px-6 bg-obsidian relative overflow-hidden" data-purpose="benchmarks-table" id="comparison">
-    <div class="max-w-6xl mx-auto relative z-10">
-      <div class="text-center mb-12 sm:mb-16">
-        <h2 class="font-heading text-2xl sm:text-3xl font-bold mb-4 sm:mb-16 tracking-tight uppercase px-4">COMPARISON:
-          THE ONLY
-          LOGICAL CHOICE</h2>
-      </div>
-      <div class="overflow-x-auto pb-6">
-        <table class="w-full text-left border-collapse min-w-[600px] md:min-w-[800px]">
-          <thead>
-            <tr
-              class="border-b border-white/10 uppercase text-[9px] sm:text-[11px] font-bold tracking-[0.1em] sm:tracking-[0.2em] text-gray-500">
-              <th class="py-6 sm:py-8 px-4 sm:px-6">Forensic Artifact</th>
-              <th class="py-6 sm:py-8 px-4 sm:px-6">Standard "Cleaners"</th>
-              <th class="py-6 sm:py-8 px-4 sm:px-6 text-phantomBlue tracking-widest">PHANTOM WINDOW: ZERO</th>
-            </tr>
-          </thead>
-          <tbody class="text-xs sm:text-sm font-mono">
-            <tr class="border-b border-white/5 group hover:bg-white/5 transition-colors">
-              <td class="py-7 px-6 text-white font-bold">Browser History &amp; Cache</td>
-              <td class="py-7 px-6 text-gray-500">Deleted (Recoverable)</td>
-              <td class="py-7 px-6 text-neonPurple font-bold italic">🔥 VAPORIZED</td>
-            </tr>
-            <tr class="border-b border-white/5 group hover:bg-white/5 transition-colors">
-              <td class="py-7 px-6 text-white font-bold">USB &amp; Peripheral Logs</td>
-              <td class="py-7 px-6 text-gray-500">Left Intact</td>
-              <td
-                class="py-7 px-6 text-phantomBlue font-bold italic tracking-widest group-hover:text-white transition-colors duration-500">
-                🔥 NUKED &amp; SPOOFED</td>
-            </tr>
-            <tr class="border-b border-white/5 group hover:bg-white/5 transition-colors">
-              <td class="py-7 px-6 text-white font-bold">WiFi / Network Profiles</td>
-              <td class="py-7 px-6 text-gray-500">Visible</td>
-              <td
-                class="py-7 px-6 text-phantomBlue font-bold italic tracking-widest group-hover:text-white transition-colors duration-500">
-                🔥 NOISE INJECTED</td>
-            </tr>
-            <tr class="border-b border-white/5 group hover:bg-white/5 transition-colors">
-              <td class="py-7 px-6 text-white font-bold">MFT Slack Space</td>
-              <td class="py-7 px-6 text-gray-500">Ignored</td>
-              <td
-                class="py-7 px-6 text-phantomBlue font-bold italic tracking-widest group-hover:text-white transition-colors duration-500">
-                🔥 OVERWRITTEN</td>
-            </tr>
-            <tr class="border-b border-white/5 group hover:bg-white/5 transition-colors">
-              <td class="py-7 px-6 text-white font-bold">Timeline &amp; ShellBags</td>
-              <td class="py-7 px-6 text-gray-500">Partial Clean</td>
-              <td
-                class="py-7 px-6 text-phantomBlue font-bold italic tracking-widest group-hover:text-white transition-colors duration-500">
-                🔥 PURGED</td>
-            </tr>
-            <tr class="group hover:bg-white/5 transition-colors">
-              <td class="py-7 px-6 text-white font-bold">EnCase / AXIOM Recovery</td>
-              <td class="py-7 px-6 text-gray-500">Highly Probable</td>
-              <td class="py-7 px-6 text-neonPurple font-bold italic uppercase">🔥 IMPOSSIBLE</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-  <section class="py-32 px-6 bg-voidGray/30" data-purpose="directives" id="directives">
-    <div class="max-w-7xl mx-auto">
-      <div class="text-center mb-20">
-        <h2 class="font-heading text-4xl font-bold mb-4 tracking-tighter uppercase">
-          THREAT PROFILING: DEFINE YOUR CLEARANCE
-        </h2>
-        <p class="text-gray-500 font-mono text-xs tracking-widest uppercase mb-6">Match the asset to your operational
-          risk level</p>
-        <div class="w-32 h-1 bg-gradient-to-r from-transparent via-phantomBlue to-transparent mx-auto"></div>
-      </div>
-
-      <div class="grid md:grid-cols-3 gap-8">
-
-        <div
-          class="glass-card p-10 flex flex-col h-full border-t-4 border-t-white/10 hover:bg-white/5 transition-all duration-500 group">
-          <div class="font-mono text-[10px] text-gray-500 mb-6 uppercase tracking-[0.3em]">Directive #01 // Personal
-            Defense</div>
-          <h3 class="font-heading text-2xl font-bold text-white mb-2 uppercase italic">THE GHOST</h3>
-          <div class="text-phantomBlue font-bold mb-6 text-xs tracking-widest uppercase">[ANONYMOUS]</div>
-
-          <p class="text-gray-400 text-sm leading-relaxed mb-8 flex-grow">
-            Engineered for the high-net-worth individual. Neutralizes <span class="text-gray-200">Behavioral
-              Analysis</span> and <span class="text-gray-200">Digital Profiling</span>. Vaporizes social engineering
-            footprints and tracking cookies before international travel or asset resale.
-          </p>
-
-          <ul class="text-[10px] space-y-2 mb-8 text-gray-500 font-mono uppercase">
-            <li>• Anti-Profiling Protocol</li>
-            <li>• Browser Telemetry Wipe</li>
-            <li>• Identity Masking</li>
-          </ul>
-
-          <div
-            class="pt-6 border-t border-white/5 font-mono text-[10px] uppercase text-phantomBlue group-hover:animate-pulse italic">
-            Threat Level: Moderate
-          </div>
-        </div>
-
-        <div
-          class="glass-card p-10 flex flex-col h-full border-t-4 border-t-stealthViolet bg-stealthViolet/5 hover:bg-stealthViolet/10 transition-all duration-500 group">
-          <div class="font-mono text-[10px] text-stealthViolet mb-6 uppercase tracking-[0.3em]">Directive #02 //
-            Corporate Intel</div>
-          <h3 class="font-heading text-2xl font-bold text-white mb-2 uppercase italic">THE EXECUTIVE</h3>
-          <div class="text-neonPurple font-bold mb-6 text-xs tracking-widest uppercase">[PROTECTED]</div>
-
-          <p class="text-gray-400 text-sm leading-relaxed mb-8 flex-grow">
-            The shield against <span class="text-gray-200">Corporate Espionage</span>. Total sterilization of trade
-            secrets, intellectual property, and high-level communications. Ensures your hardware is a <span
-              class="text-gray-200">Zero-Data Liability</span> before decommissioning.
-          </p>
-
-          <ul class="text-[10px] space-y-2 mb-8 text-stealthViolet font-mono uppercase">
-            <li>• Intel Leak Prevention</li>
-            <li>• Registry Deep-Clean</li>
-            <li>• Metadata Scorching</li>
-          </ul>
-
-          <div
-            class="pt-6 border-t border-white/5 font-mono text-[10px] uppercase text-neonPurple group-hover:animate-pulse italic">
-            Threat Level: High / Targeted
-          </div>
-        </div>
-
-        <div
-          class="glass-card p-10 flex flex-col h-full border-t-4 border-t-red-600/50 bg-red-950/5 hover:bg-red-950/10 transition-all duration-500 group">
-          <div class="font-mono text-[10px] text-red-500 mb-6 uppercase tracking-[0.3em]">Directive #03 // Tactical
-            Extraction</div>
-          <h3 class="font-heading text-2xl font-bold text-white mb-2 uppercase italic">THE PHANTOM</h3>
-          <div class="text-red-500 font-bold mb-6 text-xs tracking-widest uppercase">[UNTRACEABLE]</div>
-
-          <p class="text-gray-400 text-sm leading-relaxed mb-8 flex-grow">
-            <span class="text-red-500 font-bold italic">EVIDENCE DESTRUCTION PROTOCOL.</span> Scorched-earth tactics for
-            high-stakes environments where data is a weapon. Immediate MFT overwriting, RAM scrubbing, and total
-            usage-pattern annihilation.
-          </p>
-
-          <ul class="text-[10px] space-y-2 mb-8 text-red-700 font-mono uppercase">
-            <li>• Forensic Evidence Purge</li>
-            <li>• Logic Noise Injection</li>
-            <li>• State-Level Anti-Audit</li>
-          </ul>
-
-          <div
-            class="pt-6 border-t border-white/5 font-mono text-[10px] uppercase text-red-500 group-hover:animate-pulse italic">
-            Threat Level: Critical / Existential
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <section class="py-40 px-6 border-t border-white/10 relative overflow-hidden bg-[#050505]" data-purpose="purchase-cta"
-    id="acquire">
-    <div
-      class="absolute inset-0 bg-gradient-to-b from-transparent via-stealthViolet/5 to-transparent h-20 w-full animate-scan opacity-20">
-    </div>
-
-    <div class="max-w-4xl mx-auto text-center relative z-10">
-      <h2
-        class="font-heading text-4xl sm:text-6xl md:text-8xl font-black mb-6 md:mb-8 tracking-tighter uppercase italic text-white/10 group px-4">
-        YOU WERE NEVER <span
-          class="block sm:inline text-white py-2 sm:py-0 not-italic transition-all duration-700 group-hover:text-phantomBlue">HERE.</span>
-      </h2>
-
-      <div class="flex items-center justify-center gap-4 mb-16">
-        <div class="h-[1px] w-12 bg-white/10"></div>
-        <p class="text-phantomBlue font-mono text-[10px] uppercase tracking-[0.5em] animate-pulse">
-          Secure Acquisition Protocol Active
-        </p>
-        <div class="h-[1px] w-12 bg-white/10"></div>
-      </div>
-
-      <div class="grid md:grid-cols-2 gap-6 text-left mb-16">
-        <a href="https://t.me/falkenfujimaru" target="_blank"
-          class="glass-card p-8 group border border-white/5 hover:border-phantomBlue/50 transition-all duration-500 bg-white/[0.02]">
-          <h4 class="font-mono text-[9px] text-gray-500 mb-2 uppercase tracking-widest">Signal // Secure Telegram</h4>
-          <p class="text-white font-bold tracking-[0.2em] group-hover:text-phantomBlue transition-colors italic">
-            @falkenfujimaru</p>
-        </a>
-        <a href="mailto:falkenfujimaru@proton.me"
-          class="glass-card p-8 group border border-white/5 hover:border-neonPurple/50 transition-all duration-500 bg-white/[0.02]">
-          <h4 class="font-mono text-[9px] text-gray-500 mb-2 uppercase tracking-widest">Vault // Encrypted Email</h4>
-          <p class="text-white font-bold tracking-[0.1em] group-hover:text-neonPurple transition-colors italic">
-            falkenfujimaru@proton.me</p>
-        </a>
-      </div>
-
-      <div class="bg-white/[0.02] border border-white/5 p-10 mb-16 relative group overflow-hidden">
-        <div class="absolute top-0 right-0 p-2 font-mono text-[8px] text-white/10 tracking-widest">SEC_MODE:
-          XMR_PREFERRED</div>
-        <h4 class="font-mono text-[10px] font-bold text-gray-500 uppercase tracking-[0.3em] mb-8">Asset Liquidity
-          Channels</h4>
-
-        <div
-          class="flex flex-wrap justify-center items-center gap-x-12 gap-y-6 font-mono text-[11px] text-gray-400 uppercase tracking-[0.2em]">
-          <div class="flex items-center gap-3">
-            <span class="w-2 h-2 bg-phantomBlue rounded-full shadow-[0_0_8px_#00f3ff]"></span>
-            <span>BTC / XMR (Anonymous)</span>
-          </div>
-          <div class="flex items-center gap-3">
-            <span class="w-2 h-2 bg-white/20 rounded-full"></span>
-            <span>Global Payment Gateways</span>
-          </div>
-          <div class="flex items-center gap-3">
-            <span class="w-2 h-2 bg-white/20 rounded-full"></span>
-            <span>Escrow Validated</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="relative inline-block group w-full max-w-md px-4 sm:px-0">
-        <div
-          class="absolute inset-4 sm:-inset-1 bg-phantomBlue opacity-20 blur group-hover:opacity-40 transition duration-1000">
-        </div>
-        <a class="relative block w-full bg-white text-black font-heading font-black text-sm sm:text-lg py-6 sm:py-10 tracking-[0.4em] sm:tracking-[0.6em] hover:bg-phantomBlue hover:text-black transition-all transform hover:-translate-y-1 uppercase shadow-2xl overflow-hidden"
-          href="mailto:falkenfujimaru@proton.me">
-          <span class="relative z-10">ACQUIRE THE ENGINE</span>
-        </a>
-      </div>
-
-      <div class="mt-20 space-y-4">
+        <h1
+          class="font-heading text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 md:mb-8 tracking-tighter leading-[0.9] glitch-text uppercase italic">
+          LEAVE NO ECHO. <br /><span class="block text-white not-italic mt-2 md:mt-0">LEAVING SHADOWS, NOT
+            TRACES.</span>
+        </h1>
         <p
-          class="text-[10px] text-red-600/70 uppercase tracking-[0.3em] font-mono leading-relaxed max-w-lg mx-auto italic">
-          Caution: Engine includes <span class="text-red-500 font-bold border-b border-red-500/30">Self-Destruct
-            Sequence</span>. Code-scrubbing initiated immediately post-execution.
+          class="text-lg md:text-2xl text-gray-400 mb-10 md:mb-12 max-w-4xl mx-auto leading-relaxed font-light px-4 md:px-0">
+          Most software "cleans" files. <span class="text-white font-medium">PHANTOM WINDOW: ZERO</span> executes a
+          total
+          digital scorched-earth policy, vaporizing forensic artifacts before they can be weaponized against you.
         </p>
-
-        <div class="pt-8 flex flex-col items-center gap-4">
-          <div class="h-[1px] w-24 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
-          <p class="text-[10px] text-gray-500 uppercase tracking-[0.4em] font-mono">
-            Architected by: <span
-              class="text-white hover:text-phantomBlue transition-colors cursor-crosshair">乍丹し片ヨ几　乍凵勹工冊丹尺凵</span>
-          </p>
+        <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center pt-6 md:pt-8 w-full">
+          <a class="w-full sm:w-auto text-center bg-phantomBlue hover:bg-white text-black font-heading font-black text-xs sm:text-sm px-6 sm:px-10 py-4 sm:py-5 tracking-[0.2em] transition-all transform hover:-translate-y-1 shadow-[0_0_30px_rgba(0,243,255,0.3)]"
+            data-purpose="primary-cta" href="#acquire" aria-label="Acquire Engine Access Now">
+            ACQUIRE ENGINE ACCESS
+          </a>
+          <a class="w-full sm:w-auto text-center border border-white/20 hover:border-phantomBlue/50 hover:text-phantomBlue hover:bg-phantomBlue/5 text-white font-heading font-bold text-xs sm:text-sm px-6 sm:px-10 py-4 sm:py-5 tracking-widest transition-all"
+            data-purpose="secondary-cta" href="#kill-list" aria-label="View Software Specifications">
+            VIEW SPECIFICATIONS
+          </a>
+        </div>
+        <div
+          class="mt-20 font-mono text-[10px] uppercase tracking-[0.5em] text-gray-500 flex items-center justify-center gap-4">
+          <span>Engine Status: <span class="text-green-500 font-bold">Undetected</span></span>
+          <span class="w-1 h-1 bg-gray-700 rounded-full" aria-hidden="true"></span>
+          <span>Version: <span itemprop="softwareVersion">5.0.0-alpha</span></span>
         </div>
       </div>
-    </div>
-  </section>
+    </header>
+
+    <!-- Problem Section -->
+    <section class="py-32 px-6 border-y border-white/5 bg-voidGray/40" data-purpose="problem-statement" id="problem"
+      aria-labelledby="problem-heading">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid lg:grid-cols-2 gap-20 items-center">
+          <div>
+            <h2 id="problem-heading"
+              class="font-heading text-3xl md:text-4xl font-bold mb-10 tracking-tight text-white leading-tight uppercase">
+              They Don’t Just Look for Files. <br />
+              <span class="text-stealthViolet italic">They Look for Patterns.</span>
+            </h2>
+            <div class="space-y-8 text-gray-400 text-lg leading-relaxed">
+              <p>Every action on a Windows machine leaves a ghost. Forensic tools like <span
+                  class="text-white font-medium">EnCase</span> and <span class="text-white font-medium">Magnet
+                  AXIOM</span> don't care if you deleted a file—they look at the <span
+                  class="text-stealthViolet font-bold">MFT (Master File Table)</span>, the <span
+                  class="text-stealthViolet font-bold">System Timeline</span>, and deep-seated <span
+                  class="text-stealthViolet font-bold">Artifacts</span>.</p>
+              <p>Standard cleaners are loud. They leave 'void gaps' that scream "I've been wiped." Phantom Zero operates
+                via <span class="italic text-white">Logic Noise Injection</span>, filling the void with plausible
+                deniability and structural camouflage.</p>
+            </div>
+          </div>
+          <div class="relative group max-w-2xl mx-auto cursor-crosshair">
+            <div
+              class="absolute -inset-1 bg-red-900/20 group-hover:bg-phantomBlue/20 opacity-30 blur-3xl transition-all duration-700">
+            </div>
+
+            <div
+              class="relative bg-[#050505] border border-white/10 rounded-lg overflow-hidden shadow-2xl transition-all duration-500 group-hover:border-phantomBlue/30">
+
+              <div class="flex items-center justify-between px-3 sm:px-4 py-2 bg-white/5 border-b border-white/10">
+                <div class="flex gap-1.5">
+                  <div
+                    class="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-red-500/20 border border-red-500/50 group-hover:bg-phantomBlue/20 group-hover:border-phantomBlue/50 transition-colors">
+                  </div>
+                  <div class="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-yellow-500/20 border border-yellow-500/50">
+                  </div>
+                  <div class="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-green-500/20 border border-green-500/50"></div>
+                </div>
+                <div
+                  class="text-[8px] sm:text-[10px] font-mono text-gray-500 tracking-[0.2em] sm:tracking-[0.3em] uppercase">
+                  <span class="group-hover:hidden">Scan_Mode // Vulnerable</span>
+                  <span class="hidden group-hover:inline text-phantomBlue animate-pulse">Engaged //
+                    Scorched_Earth</span>
+                </div>
+              </div>
+
+              <div class="p-4 sm:p-8 font-mono text-[10px] sm:text-xs md:text-sm leading-relaxed">
+
+                <div class="mb-6">
+                  <div class="text-red-500 group-hover:text-phantomBlue transition-colors duration-500">
+                    &gt; <span class="group-hover:hidden">CAUTION: Forensic Artifacts Detected.</span>
+                    <span class="hidden group-hover:inline">SUCCESS: Digital Footprint Vaporized.</span>
+                  </div>
+                  <div class="text-gray-600 text-[10px] mt-1 italic">Target: C:\Users\Admin\AppData\Local\...</div>
+                </div>
+
+                <div class="space-y-4 mb-8">
+                  <div class="flex justify-between items-center border-b border-white/5 pb-2">
+                    <span class="text-gray-400 group-hover:text-gray-200 transition-colors">Master File Table
+                      (MFT)</span>
+                    <div class="relative h-5 w-24 text-right">
+                      <span
+                        class="absolute right-0 text-red-600 font-bold group-hover:opacity-0 group-hover:-translate-y-2 transition-all duration-500 italic">[EXPOSED]</span>
+                      <span
+                        class="absolute right-0 text-phantomBlue font-bold opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 delay-100 uppercase">[BURIED]</span>
+                    </div>
+                  </div>
+
+                  <div class="flex justify-between items-center border-b border-white/5 pb-2">
+                    <span class="text-gray-400 group-hover:text-gray-200 transition-colors">USB/Hardware Registry</span>
+                    <div class="relative h-5 w-24 text-right">
+                      <span
+                        class="absolute right-0 text-red-600 font-bold group-hover:opacity-0 group-hover:-translate-y-2 transition-all duration-500 italic">[RECOVERABLE]</span>
+                      <span
+                        class="absolute right-0 text-phantomBlue font-bold opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 delay-200 uppercase">[NUKED]</span>
+                    </div>
+                  </div>
+
+                  <div class="flex justify-between items-center border-b border-white/5 pb-2">
+                    <span class="text-gray-400 group-hover:text-gray-200 transition-colors">Windows Event Logs</span>
+                    <div class="relative h-5 w-24 text-right">
+                      <span
+                        class="absolute right-0 text-red-600 font-bold group-hover:opacity-0 group-hover:-translate-y-2 transition-all duration-500 italic">[RED_FLAG]</span>
+                      <span
+                        class="absolute right-0 text-phantomBlue font-bold opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 delay-300 uppercase">[MASKED]</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="relative w-full h-1 bg-white/5 rounded-full overflow-hidden mb-6">
+                  <div
+                    class="absolute top-0 left-0 h-full bg-phantomBlue w-0 group-hover:w-full transition-all duration-[1.5s] ease-out">
+                  </div>
+                </div>
+
+                <div
+                  class="flex flex-col items-center justify-center pt-4 border-t border-white/10 transition-all duration-1000">
+                  <div class="text-[10px] text-gray-500 uppercase tracking-widest mb-2">Forensic Reconstruction
+                    Probability:</div>
+                  <div class="relative h-8 w-full text-center font-black text-2xl tracking-tighter transition-all">
+                    <span
+                      class="absolute inset-0 text-red-700/50 group-hover:opacity-0 transition-opacity duration-500 uppercase">High_Risk</span>
+                    <span
+                      class="absolute inset-0 text-phantomBlue opacity-0 group-hover:opacity-100 group-hover:animate-pulse transition-opacity duration-1000 uppercase">Zero_Trace_Alpha</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Tech Section -->
+    <section class="py-32 px-6 relative" data-purpose="features-grid" id="features" aria-labelledby="features-heading">
+      <div
+        class="absolute inset-0 bg-gradient-to-b from-transparent via-phantomBlue/[0.02] to-transparent pointer-events-none"
+        aria-hidden="true">
+      </div>
+      <div class="max-w-7xl mx-auto relative z-10">
+        <div class="text-center mb-20">
+          <h2 id="features-heading"
+            class="font-heading text-4xl font-bold mb-4 tracking-tighter uppercase text-white/90">THE TRINITY OF
+            ANNIHILATION</h2>
+          <div class="w-32 h-1 bg-gradient-to-r from-transparent via-phantomBlue to-transparent mx-auto"
+            aria-hidden="true"></div>
+          <p class="mt-6 text-phantomBlue font-mono text-xs tracking-[0.3em] uppercase">Proprietary counter-forensic
+            engine
+          </p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div
+            class="glass-card p-12 border border-white/5 hover:border-phantomBlue/40 hover:bg-white/5 transition-all duration-500 group flex flex-col items-center text-center">
+            <div
+              class="mb-8 p-6 bg-white/5 border border-white/5 rounded-full group-hover:scale-110 group-hover:bg-phantomBlue/10 group-hover:border-phantomBlue/50 transition-all duration-500 shadow-[0_0_0_rgba(0,243,255,0)] group-hover:shadow-[0_0_30px_rgba(0,243,255,0.2)]">
+              <svg class="w-12 h-12 text-white/50 group-hover:text-phantomBlue transition-colors duration-500"
+                fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                </path>
+              </svg>
+            </div>
+            <h3
+              class="font-heading text-xl font-bold mb-6 text-white uppercase tracking-tight group-hover:text-phantomBlue transition-colors duration-500">
+              I. MFT Burial</h3>
+            <p class="text-gray-400 text-sm leading-relaxed">Don't just delete records; bury them. We flood the Master
+              File Table with millions of dummy entries, forcing original artifact offsets to be physically overwritten
+              and irrecoverable by hardware tools.</p>
+          </div>
+          <div
+            class="glass-card p-12 border border-white/5 hover:border-phantomBlue/40 hover:bg-white/5 transition-all duration-500 group flex flex-col items-center text-center">
+            <div
+              class="mb-8 p-6 bg-white/5 border border-white/5 rounded-full group-hover:scale-110 group-hover:bg-phantomBlue/10 group-hover:border-phantomBlue/50 transition-all duration-500 shadow-[0_0_0_rgba(0,243,255,0)] group-hover:shadow-[0_0_30px_rgba(0,243,255,0.2)]">
+              <svg class="w-12 h-12 text-white/50 group-hover:text-phantomBlue transition-colors duration-500"
+                fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+              </svg>
+            </div>
+            <h3
+              class="font-heading text-xl font-bold mb-6 text-white uppercase tracking-tight group-hover:text-phantomBlue transition-colors duration-500">
+              II. Logic Noise</h3>
+            <p class="text-gray-400 text-sm leading-relaxed">Create a false history. Phantom Zero injects thousands of
+              simulated "System Maintenance" and "Update" logs to mask the timing of high-priority activities. Hide in
+              plain sight.</p>
+          </div>
+          <div
+            class="glass-card p-12 border border-white/5 hover:border-phantomBlue/40 hover:bg-white/5 transition-all duration-500 group flex flex-col items-center text-center">
+            <div
+              class="mb-8 p-6 bg-white/5 border border-white/5 rounded-full group-hover:scale-110 group-hover:bg-phantomBlue/10 group-hover:border-phantomBlue/50 transition-all duration-500 shadow-[0_0_0_rgba(0,243,255,0)] group-hover:shadow-[0_0_30px_rgba(0,243,255,0.2)]">
+              <svg class="w-12 h-12 text-white/50 group-hover:text-phantomBlue transition-colors duration-500"
+                fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="1.5"></path>
+              </svg>
+            </div>
+            <h3
+              class="font-heading text-xl font-bold mb-6 text-white uppercase tracking-tight group-hover:text-phantomBlue transition-colors duration-500">
+              III. Scorched Earth</h3>
+            <p class="text-gray-400 text-sm leading-relaxed">Nuking the "Big 4" trackers including <code
+                class="text-phantomBlue font-bold">wpndatabase.db</code>, JumpLists, ShellBags, and Prefetch
+              directories. Absolute destruction of usage patterns.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kill-List Section -->
+    <section class="py-32 px-6 border-y border-white/5 bg-voidGray/40" data-purpose="kill-list" id="kill-list"
+      aria-labelledby="kill-list-heading">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-16 md:mb-20">
+          <h2 id="kill-list-heading"
+            class="font-heading text-3xl md:text-4xl lg:text-5xl font-bold mb-4 tracking-tighter uppercase">50+ ARTIFACT
+            <span class="text-phantomBlue">DEEP-STRIKE</span>:
+            <span class="block md:inline text-white/40 mt-2 md:mt-0">THE KILL-LIST</span>
+          </h2>
+          <div class="w-32 h-1 bg-gradient-to-r from-transparent via-phantomBlue to-transparent mx-auto"
+            aria-hidden="true"></div>
+          <p class="mt-6 text-gray-500 font-mono text-sm tracking-widest uppercase">Total Coverage. Zero Recoverable
+            Evidence.</p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="glass-card p-8 border-l-4 border-l-stealthViolet">
+            <h3 class="font-heading text-lg font-bold text-white mb-4 uppercase tracking-wider flex items-center gap-3">
+              <span class="w-2 h-2 bg-stealthViolet"></span> Execution &amp; Activity
+            </h3>
+            <ul class="space-y-2 font-mono text-xs text-gray-400">
+              <li class="flex justify-between"><span>UserAssist.reg</span> <span
+                  class="text-stealthViolet">[NUKED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>ShimCache / AppCompat</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>Prefetch Database</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>RecentItems &amp; JumpLists</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>RunMRU &amp; Search History</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="glass-card p-8 border-l-4 border-l-white/10 hover:border-l-phantomBlue hover:bg-white/5 transition-all duration-500">
+            <h3 class="font-heading text-lg font-bold text-white mb-4 uppercase tracking-wider flex items-center gap-3">
+              <span class="w-2 h-2 bg-phantomBlue shadow-[0_0_8px_#00f3ff]"></span> Hardware Fingerprints
+            </h3>
+            <ul class="space-y-2 font-mono text-xs text-gray-400">
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>USB Device Logs</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[SPOOFED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>Network Profile GUIDs</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[ROTATED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>MAC Address Entropy</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[INJECTED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>Bluetooth Pairings</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[PURGED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>WLAN Artifacts</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="glass-card p-8 border-l-4 border-l-white/10 hover:border-l-phantomBlue hover:bg-white/5 transition-all duration-500">
+            <h3 class="font-heading text-lg font-bold text-white mb-4 uppercase tracking-wider flex items-center gap-3">
+              <span class="w-2 h-2 bg-phantomBlue shadow-[0_0_8px_#00f3ff]"></span> Deep Logs
+            </h3>
+            <ul class="space-y-2 font-mono text-xs text-gray-400">
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>Event Viewer Logs</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[PURGED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>PowerShell History</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>Setupapi.dev.log</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[SCRUBBED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>WDI Diagnostics</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>CBS/CSI Logs</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[SCRUBBED]</span>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="glass-card p-8 border-l-4 border-l-white/10 hover:border-l-phantomBlue hover:bg-white/5 transition-all duration-500">
+            <h3 class="font-heading text-lg font-bold text-white mb-4 uppercase tracking-wider flex items-center gap-3">
+              <span class="w-2 h-2 bg-phantomBlue shadow-[0_0_8px_#00f3ff]"></span> Communication Vaults
+            </h3>
+            <ul class="space-y-2 font-mono text-xs text-gray-400">
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>Outlook/Teams Cache</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>Discord LocalStorage</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>Session/Signal Metadata</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[SCRUBBED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>Browser Session DBs</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[VAPORIZED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>VoIP Metadata</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[PURGED]</span>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="glass-card p-8 border-l-4 border-l-white/10 hover:border-l-phantomBlue hover:bg-white/5 transition-all duration-500">
+            <h3 class="font-heading text-lg font-bold text-white mb-4 uppercase tracking-wider flex items-center gap-3">
+              <span class="w-2 h-2 bg-phantomBlue shadow-[0_0_8px_#00f3ff]"></span> Filesystem Shadow
+            </h3>
+            <ul class="space-y-2 font-mono text-xs text-gray-400">
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>MFT Slack Space</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[OVERWRITTEN]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>ShellBags (Folder History)</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>VSS Shadow Copies</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>Recycle Bin SID Data</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
+              </li>
+              <li class="flex justify-between border-b border-white/5 pb-1.5 group hover:text-white transition-colors">
+                <span>Thumbnail Cache</span> <span
+                  class="text-phantomBlue font-bold tracking-widest text-[10px] group-hover:animate-pulse">[NUKED]</span>
+              </li>
+            </ul>
+          </div>
+          <div class="glass-card p-8 flex flex-col justify-center items-center text-center border-dashed">
+            <div class="text-stealthViolet font-bold text-4xl mb-2 animate-pulse">20+</div>
+            <div class="font-heading font-bold text-white uppercase tracking-tighter">Additional Sub-Layers</div>
+            <p class="text-[10px] text-gray-500 font-mono mt-2">Continuously updated signatures for new forensic tools.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Comparison Table Section -->
+    <section class="py-32 px-6 bg-obsidian relative overflow-hidden" data-purpose="benchmarks-table" id="comparison">
+      <div class="max-w-6xl mx-auto relative z-10">
+        <div class="text-center mb-12 sm:mb-16">
+          <h2 class="font-heading text-2xl sm:text-3xl font-bold mb-4 sm:mb-16 tracking-tight uppercase px-4">
+            COMPARISON:
+            THE ONLY
+            LOGICAL CHOICE</h2>
+        </div>
+        <div class="overflow-x-auto pb-6">
+          <table class="w-full text-left border-collapse min-w-[600px] md:min-w-[800px]">
+            <thead>
+              <tr
+                class="border-b border-white/10 uppercase text-[9px] sm:text-[11px] font-bold tracking-[0.1em] sm:tracking-[0.2em] text-gray-500">
+                <th class="py-6 sm:py-8 px-4 sm:px-6">Forensic Artifact</th>
+                <th class="py-6 sm:py-8 px-4 sm:px-6">Standard "Cleaners"</th>
+                <th class="py-6 sm:py-8 px-4 sm:px-6 text-phantomBlue tracking-widest">PHANTOM WINDOW: ZERO</th>
+              </tr>
+            </thead>
+            <tbody class="text-xs sm:text-sm font-mono">
+              <tr class="border-b border-white/5 group hover:bg-white/5 transition-colors">
+                <td class="py-7 px-6 text-white font-bold">Browser History &amp; Cache</td>
+                <td class="py-7 px-6 text-gray-500">Deleted (Recoverable)</td>
+                <td class="py-7 px-6 text-neonPurple font-bold italic">🔥 VAPORIZED</td>
+              </tr>
+              <tr class="border-b border-white/5 group hover:bg-white/5 transition-colors">
+                <td class="py-7 px-6 text-white font-bold">USB &amp; Peripheral Logs</td>
+                <td class="py-7 px-6 text-gray-500">Left Intact</td>
+                <td
+                  class="py-7 px-6 text-phantomBlue font-bold italic tracking-widest group-hover:text-white transition-colors duration-500">
+                  🔥 NUKED &amp; SPOOFED</td>
+              </tr>
+              <tr class="border-b border-white/5 group hover:bg-white/5 transition-colors">
+                <td class="py-7 px-6 text-white font-bold">WiFi / Network Profiles</td>
+                <td class="py-7 px-6 text-gray-500">Visible</td>
+                <td
+                  class="py-7 px-6 text-phantomBlue font-bold italic tracking-widest group-hover:text-white transition-colors duration-500">
+                  🔥 NOISE INJECTED</td>
+              </tr>
+              <tr class="border-b border-white/5 group hover:bg-white/5 transition-colors">
+                <td class="py-7 px-6 text-white font-bold">MFT Slack Space</td>
+                <td class="py-7 px-6 text-gray-500">Ignored</td>
+                <td
+                  class="py-7 px-6 text-phantomBlue font-bold italic tracking-widest group-hover:text-white transition-colors duration-500">
+                  🔥 OVERWRITTEN</td>
+              </tr>
+              <tr class="border-b border-white/5 group hover:bg-white/5 transition-colors">
+                <td class="py-7 px-6 text-white font-bold">Timeline &amp; ShellBags</td>
+                <td class="py-7 px-6 text-gray-500">Partial Clean</td>
+                <td
+                  class="py-7 px-6 text-phantomBlue font-bold italic tracking-widest group-hover:text-white transition-colors duration-500">
+                  🔥 PURGED</td>
+              </tr>
+              <tr class="group hover:bg-white/5 transition-colors">
+                <td class="py-7 px-6 text-white font-bold">EnCase / AXIOM Recovery</td>
+                <td class="py-7 px-6 text-gray-500">Highly Probable</td>
+                <td class="py-7 px-6 text-neonPurple font-bold italic uppercase">🔥 IMPOSSIBLE</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="py-32 px-6 bg-voidGray/30" data-purpose="directives" id="directives"
+      aria-labelledby="directives-heading">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-20">
+          <h2 id="directives-heading" class="font-heading text-4xl font-bold mb-4 tracking-tighter uppercase">
+            THREAT PROFILING: DEFINE YOUR CLEARANCE
+          </h2>
+          <p class="text-gray-500 font-mono text-xs tracking-widest uppercase mb-6">Match the asset to your operational
+            risk level</p>
+          <div class="w-32 h-1 bg-gradient-to-r from-transparent via-phantomBlue to-transparent mx-auto"
+            aria-hidden="true"></div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+
+          <div
+            class="glass-card p-10 flex flex-col h-full border-t-4 border-t-white/10 hover:bg-white/5 transition-all duration-500 group">
+            <div class="font-mono text-[10px] text-gray-500 mb-6 uppercase tracking-[0.3em]">Directive #01 // Personal
+              Defense</div>
+            <h3 class="font-heading text-2xl font-bold text-white mb-2 uppercase italic">THE GHOST</h3>
+            <div class="text-phantomBlue font-bold mb-6 text-xs tracking-widest uppercase">[ANONYMOUS]</div>
+
+            <p class="text-gray-400 text-sm leading-relaxed mb-8 flex-grow">
+              Engineered for the high-net-worth individual. Neutralizes <span class="text-gray-200">Behavioral
+                Analysis</span> and <span class="text-gray-200">Digital Profiling</span>. Vaporizes social engineering
+              footprints and tracking cookies before international travel or asset resale.
+            </p>
+
+            <ul class="text-[10px] space-y-2 mb-8 text-gray-500 font-mono uppercase">
+              <li>• Anti-Profiling Protocol</li>
+              <li>• Browser Telemetry Wipe</li>
+              <li>• Identity Masking</li>
+            </ul>
+
+            <div
+              class="pt-6 border-t border-white/5 font-mono text-[10px] uppercase text-phantomBlue group-hover:animate-pulse italic">
+              Threat Level: Moderate
+            </div>
+          </div>
+
+          <div
+            class="glass-card p-10 flex flex-col h-full border-t-4 border-t-stealthViolet bg-stealthViolet/5 hover:bg-stealthViolet/10 transition-all duration-500 group">
+            <div class="font-mono text-[10px] text-stealthViolet mb-6 uppercase tracking-[0.3em]">Directive #02 //
+              Corporate Intel</div>
+            <h3 class="font-heading text-2xl font-bold text-white mb-2 uppercase italic">THE EXECUTIVE</h3>
+            <div class="text-neonPurple font-bold mb-6 text-xs tracking-widest uppercase">[PROTECTED]</div>
+
+            <p class="text-gray-400 text-sm leading-relaxed mb-8 flex-grow">
+              The shield against <span class="text-gray-200">Corporate Espionage</span>. Total sterilization of trade
+              secrets, intellectual property, and high-level communications. Ensures your hardware is a <span
+                class="text-gray-200">Zero-Data Liability</span> before decommissioning.
+            </p>
+
+            <ul class="text-[10px] space-y-2 mb-8 text-stealthViolet font-mono uppercase">
+              <li>• Intel Leak Prevention</li>
+              <li>• Registry Deep-Clean</li>
+              <li>• Metadata Scorching</li>
+            </ul>
+
+            <div
+              class="pt-6 border-t border-white/5 font-mono text-[10px] uppercase text-neonPurple group-hover:animate-pulse italic">
+              Threat Level: High / Targeted
+            </div>
+          </div>
+
+          <div
+            class="glass-card p-10 flex flex-col h-full border-t-4 border-t-red-600/50 bg-red-950/5 hover:bg-red-950/10 transition-all duration-500 group">
+            <div class="font-mono text-[10px] text-red-500 mb-6 uppercase tracking-[0.3em]">Directive #03 // Tactical
+              Extraction</div>
+            <h3 class="font-heading text-2xl font-bold text-white mb-2 uppercase italic">THE PHANTOM</h3>
+            <div class="text-red-500 font-bold mb-6 text-xs tracking-widest uppercase">[UNTRACEABLE]</div>
+
+            <p class="text-gray-400 text-sm leading-relaxed mb-8 flex-grow">
+              <span class="text-red-500 font-bold italic">EVIDENCE DESTRUCTION PROTOCOL.</span> Scorched-earth tactics
+              for
+              high-stakes environments where data is a weapon. Immediate MFT overwriting, RAM scrubbing, and total
+              usage-pattern annihilation.
+            </p>
+
+            <ul class="text-[10px] space-y-2 mb-8 text-red-700 font-mono uppercase">
+              <li>• Forensic Evidence Purge</li>
+              <li>• Logic Noise Injection</li>
+              <li>• State-Level Anti-Audit</li>
+            </ul>
+
+            <div
+              class="pt-6 border-t border-white/5 font-mono text-[10px] uppercase text-red-500 group-hover:animate-pulse italic">
+              Threat Level: Critical / Existential
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Purchase CTA -->
+    <section class="py-40 px-6 border-t border-white/10 relative overflow-hidden bg-[#050505]"
+      data-purpose="purchase-cta" id="acquire" aria-labelledby="acquire-heading">
+      <div
+        class="absolute inset-0 bg-gradient-to-b from-transparent via-stealthViolet/5 to-transparent h-20 w-full animate-scan opacity-20"
+        aria-hidden="true">
+      </div>
+
+      <div class="max-w-4xl mx-auto text-center relative z-10">
+        <h2 id="acquire-heading"
+          class="font-heading text-4xl sm:text-6xl md:text-8xl font-black mb-6 md:mb-8 tracking-tighter uppercase italic text-white/10 group px-4">
+          YOU WERE NEVER <span
+            class="block sm:inline text-white py-2 sm:py-0 not-italic transition-all duration-700 group-hover:text-phantomBlue">HERE.</span>
+        </h2>
+
+        <div class="flex items-center justify-center gap-4 mb-16">
+          <div class="h-[1px] w-12 bg-white/10"></div>
+          <p class="text-phantomBlue font-mono text-[10px] uppercase tracking-[0.5em] animate-pulse">
+            Secure Acquisition Protocol Active
+          </p>
+          <div class="h-[1px] w-12 bg-white/10"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6 text-left mb-16">
+          <a href="https://t.me/falkenfujimaru" target="_blank" rel="noopener noreferrer"
+            class="glass-card p-8 group border border-white/5 hover:border-phantomBlue/50 transition-all duration-500 bg-white/[0.02]"
+            aria-label="Contact via Signal Telegram">
+            <h4 class="font-mono text-[9px] text-gray-500 mb-2 uppercase tracking-widest">Signal // Secure Telegram</h4>
+            <p class="text-white font-bold tracking-[0.2em] group-hover:text-phantomBlue transition-colors italic">
+              @falkenfujimaru</p>
+          </a>
+          <a href="mailto:falkenfujimaru@proton.me"
+            class="glass-card p-8 group border border-white/5 hover:border-neonPurple/50 transition-all duration-500 bg-white/[0.02]"
+            aria-label="Contact via Encrypted Email">
+            <h4 class="font-mono text-[9px] text-gray-500 mb-2 uppercase tracking-widest">Vault // Encrypted Email</h4>
+            <p class="text-white font-bold tracking-[0.1em] group-hover:text-neonPurple transition-colors italic">
+              falkenfujimaru@proton.me</p>
+          </a>
+        </div>
+
+        <div class="bg-white/[0.02] border border-white/5 p-10 mb-16 relative group overflow-hidden">
+          <div class="absolute top-0 right-0 p-2 font-mono text-[8px] text-white/10 tracking-widest">SEC_MODE:
+            XMR_PREFERRED</div>
+          <h4 class="font-mono text-[10px] font-bold text-gray-500 uppercase tracking-[0.3em] mb-8">Asset Liquidity
+            Channels</h4>
+
+          <div
+            class="flex flex-wrap justify-center items-center gap-x-12 gap-y-6 font-mono text-[11px] text-gray-400 uppercase tracking-[0.2em]">
+            <div class="flex items-center gap-3">
+              <span class="w-2 h-2 bg-phantomBlue rounded-full shadow-[0_0_8px_#00f3ff]"></span>
+              <span>BTC / XMR (Anonymous)</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="w-2 h-2 bg-white/20 rounded-full"></span>
+              <span>Global Payment Gateways</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="w-2 h-2 bg-white/20 rounded-full"></span>
+              <span>Escrow Validated</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative inline-block group w-full max-w-md px-4 sm:px-0">
+          <div
+            class="absolute inset-4 sm:-inset-1 bg-phantomBlue opacity-20 blur group-hover:opacity-40 transition duration-1000"
+            aria-hidden="true">
+          </div>
+          <a class="relative block w-full bg-white text-black font-heading font-black text-sm sm:text-lg py-6 sm:py-10 tracking-[0.4em] sm:tracking-[0.6em] hover:bg-phantomBlue hover:text-black transition-all transform hover:-translate-y-1 uppercase shadow-2xl overflow-hidden"
+            href="mailto:falkenfujimaru@proton.me" aria-label="Acquire the Phantom Window Engine directly">
+            <span class="relative z-10">ACQUIRE THE ENGINE</span>
+          </a>
+        </div>
+
+        <div class="mt-20 space-y-4">
+          <p class="text-[10px] text-red-600/70 uppercase tracking-[0.3em] font-mono leading-relaxed max-w-lg mx-auto italic"
+            role="alert">
+            Caution: Engine includes <span class="text-red-500 font-bold border-b border-red-500/30">Self-Destruct
+              Sequence</span>. Code-scrubbing initiated immediately post-execution.
+          </p>
+
+          <div class="pt-8 flex flex-col items-center gap-4">
+            <div class="h-[1px] w-24 bg-gradient-to-r from-transparent via-white/10 to-transparent" aria-hidden="true">
+            </div>
+            <p class="text-[10px] text-gray-500 uppercase tracking-[0.4em] font-mono">
+              Architected by: <span class="text-white hover:text-phantomBlue transition-colors cursor-crosshair"
+                itemprop="author">乍丹し片ヨ几　乍凵勹工冊丹尺凵</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="py-24 px-6 bg-[#030303] border-t border-white/5 relative" data-purpose="site-footer">
     <div class="max-w-7xl mx-auto">
